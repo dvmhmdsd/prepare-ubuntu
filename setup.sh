@@ -59,14 +59,8 @@ else
   echo "✅ NvChad already installed"
 fi
 
-#######################################
-# Install Warp terminal
-#######################################
-echo "📦 Installing Warp terminal..."
-WARP_DEB="warp-terminal.deb"
-wget -O $WARP_DEB https://releases.warp.dev/stable/warp-terminal_0.2025.09.10.08.11.stable.01_amd64.deb
-sudo apt install -y ./$WARP_DEB
-rm -f $WARP_DEB
+echo "📦 Installing global npm packages..."
+npm install -g @executeautomation/playwright-mcp-server @nestjs/cli typescript ts-node pm2 nodemon autocannon @google/gemini-cli @angular/cli @nestjs/cli
 
 echo "🎉 Setup complete! Please restart your terminal."
 
