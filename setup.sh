@@ -64,7 +64,7 @@ fi
 #######################################
 echo "📦 Installing Warp terminal..."
 WARP_DEB="warp-terminal.deb"
-wget -O $WARP_DEB https://releases.warp.dev/stable/v0.2025.01.29.08.02.stable_amd64.deb
+wget -O $WARP_DEB https://releases.warp.dev/stable/warp-terminal_0.2025.09.10.08.11.stable.01_amd64.deb
 sudo apt install -y ./$WARP_DEB
 rm -f $WARP_DEB
 
