@@ -47,6 +47,14 @@ sudo apt install -y ./google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 
 #######################################
+# Install Warp terminal
+#######################################
+echo "📦 Installing Warp..."
+wget wget https://releases.warp.dev/linux/warp-terminal_0.2025.09.24.08.11.stable.03_amd64.deb
+sudo apt install -y ./warp-terminal_0.2025.09.24.08.11.stable.03_amd64.deb
+rm warp-terminal_0.2025.09.24.08.11.stable.03_amd64.deb
+
+#######################################
 # Install Neovim + NvChad
 #######################################
 echo "📦 Installing Neovim..."
