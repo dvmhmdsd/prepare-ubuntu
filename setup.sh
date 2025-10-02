@@ -59,6 +59,12 @@ else
   echo "✅ NvChad already installed"
 fi
 
+#######################################
+# Install gh CLI
+#######################################
+
+sudo apt install gh
+
 echo "📦 Installing global npm packages..."
 npm install -g @executeautomation/playwright-mcp-server @nestjs/cli typescript ts-node pm2 nodemon autocannon @google/gemini-cli @angular/cli @nestjs/cli
 
